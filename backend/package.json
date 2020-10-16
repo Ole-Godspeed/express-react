@@ -1,0 +1,43 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Main.js",
+    "dev": "nodemon Main.js"
+  },
+  "author": "Oleg Vartanov",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.0.0",
+    "@admin-bro/sequelize": "^1.1.0",
+    "@google-cloud/storage": "^5.3.0",
+    "admin-bro": "^3.2.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-redis": "^5.0.0",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "memorystore": "^1.6.2",
+    "mimetypes": "^0.1.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-heroku": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-vkontakte": "^0.3.3",
+    "redis": "^3.0.2",
+    "sequelize": "^6.3.4",
+    "stream": "0.0.2"
+  }
+}
