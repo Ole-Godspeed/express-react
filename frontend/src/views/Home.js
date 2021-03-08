@@ -52,8 +52,7 @@ function Home() {
   }
 
   return (
-    <div>
-      <div class="text-center position-fixed" style={{ right:"5px" }}>
+    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
         { udata.length !== 0 ?
           <BootstrapTable
             classes={'m-2 w-25 mr-auto '+(isDark ? "table-dark" : "table-active")}
@@ -64,7 +63,6 @@ function Home() {
             columns={ columns }
             rowEvents={ tableRowEvents }/>
           : <p className="mt-3">No items yet.</p> }
-      </div>
     </div>
   );
 }
